@@ -1,0 +1,18 @@
+{
+  "name": "ll-template-for-node-cli",
+  "version": "1.0.0",
+  "description": "a simple template for a node cli",
+  "main": "index.js",
+  "bin": {
+    "temp-tool": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marlon Kuzmick",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "yargs": "^17.7.2"
+  }
+}
