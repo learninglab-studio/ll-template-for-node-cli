@@ -54,6 +54,7 @@ const ansiColors = {
   });
   
   module.exports.divider = `#########################################################\n#########################################################`;
+  
   module.exports.big = (word) => {
     console.log(figlet.textSync(word, {
         horizontalLayout: "default",
